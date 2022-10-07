@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>454</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Job Record</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background:rgb(210,232,237);
+}</string>
+  </property>
+  <widget class="QLineEdit" name="txtJobCode">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtJName">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtRate">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAdd">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  font-family: &quot;Roboto&quot;, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:rgb(255,192,0);
+  width: 100%;
+  border: 0;
+  padding: 0px;
+  color: #000;
+  font-size: 12px;
+  border-radius:10px;
+}
+QPushButton:hover{
+	color:white;
+	background-color:rgb(239,93,93);
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>100</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  font-family: &quot;Roboto&quot;, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:rgb(255,192,0);
+  width: 100%;
+  border: 0;
+  padding: 0px;
+  color: #000;
+  font-size: 12px;
+  border-radius:10px;
+}
+QPushButton:hover{
+	color:white;
+	background-color:rgb(239,93,93);
+}</string>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>60</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  font-family: &quot;Roboto&quot;, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:rgb(255,192,0);
+  width: 100%;
+  border: 0;
+  padding: 0px;
+  color: #000;
+  font-size: 12px;
+  border-radius:10px;
+}
+QPushButton:hover{
+	color:white;
+	background-color:rgb(239,93,93);
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>140</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  font-family: &quot;Roboto&quot;, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:rgb(255,192,0);
+  width: 100%;
+  border: 0;
+  padding: 0px;
+  color: #000;
+  font-size: 12px;
+  border-radius:10px;
+}
+QPushButton:hover{
+	color:white;
+	background-color:rgb(239,93,93);
+}</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Job Name :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Job Code :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Rate :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableJob">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>311</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Job Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Rate</string>
+    </property>
+   </column>
+  </widget>
+  <zorder>txtJName</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>txtJobCode</zorder>
+  <zorder>txtRate</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btnAdd</zorder>
+  <zorder>btnEdit</zorder>
+  <zorder>btnDelete</zorder>
+  <zorder>btnClear</zorder>
+  <zorder>tableJob</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
